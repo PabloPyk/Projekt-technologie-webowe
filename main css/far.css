@@ -1,0 +1,17 @@
+.content
+{
+    background-image: url(../assets/Far.jpg);
+    
+}
+
+h1
+{
+    opacity: 100%;
+}
+
+article
+{
+    opacity: 100%;
+    color: #beb52a;
+    font-weight: bold;
+}

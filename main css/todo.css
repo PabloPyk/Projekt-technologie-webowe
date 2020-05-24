@@ -1,0 +1,27 @@
+#txt1 {
+    padding: 4px;
+    border: 1px solid #751b1b;
+
+}
+
+.button {
+    padding: 4px;
+    cursor: pointer;
+    width: 80px;
+    border: 1px solid #751b1b;
+
+}
+
+.button:hover {
+    box-shadow: 0px 10px 15px #751b1b;
+    opacity: 0,6;
+      
+    
+}
+
+#ToDoListTable {
+    width: 347px;
+    border: 1px solid #751b1b;
+    margin-top: 10px;
+    
+}

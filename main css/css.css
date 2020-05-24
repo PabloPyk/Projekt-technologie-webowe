@@ -1,6 +1,10 @@
 body
 {
-    margin: 0 !important
+    margin-left: auto;
+    margin-right: auto;
+    
+
+    
 }
 
 #fotter
@@ -9,7 +13,6 @@ body
     font-size: 16px;
     text-align: center;
     color: white;
-    padding: 10px;
     width: 100%;
 
 }
@@ -46,6 +49,7 @@ body
     text-decoration: none;
 }
 
+
 nav
 {
     text-align: center;
@@ -67,6 +71,7 @@ nav
     text-align: justify;
     margin-top: 60px;
     padding: 15px;
+    min-height: 500px;
 }
 
 
@@ -94,9 +99,17 @@ nav
     
 }
 
+.fbb
+{
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
 .fb:hover 
 {
     background-color: #4668b3;
+    transition-duration: 500ms;
+    transition-timing-function: cubic-bezier(.645, .045, .355, 1);
 }
 
 .yt
@@ -107,9 +120,16 @@ nav
     
 }
 
+.ytt
+{
+    margin-top: 50px;
+}
+
 .yt:hover 
 {
     background-color: #d94348;
+    transition-duration: 500ms;
+    transition-timing-function: cubic-bezier(.645, .045, .355, 1);
 }
 
 .tw
@@ -120,12 +140,20 @@ nav
     
 }
 
+.tww
+{
+    margin-top: 50px;
+    
+}
+
 .tw:hover 
 {
     background-color: #3095d3;
+    transition-duration: 500ms;
+    transition-timing-function: cubic-bezier(.645, .045, .355, 1);
 }
 
-.gplus
+.skype
 {
     width: 250px;
     height: 155px;
@@ -133,9 +161,15 @@ nav
     
 }
 
-.gplus:hover 
+.skypee
+{
+    margin-top: 50px;
+}
+.skype:hover 
 {
     background-color: #d95333;
+    transition-duration: 500ms;
+    transition-timing-function: cubic-bezier(.645, .045, .355, 1);
 }
 
 ol
@@ -173,13 +207,16 @@ ol > li:first-child
 ol > li:hover
 {
     background-color:  #45171791;
-    
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(.645, .045, .355, 1);
     
     
 }
 ol > li:hover > a
 {
     color: #451717;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(.645, .045, .355, 1);
 }
 
 ol > li > ul
@@ -194,6 +231,8 @@ ol > li > ul
 ol > li:hover > ul
 {
     display: block;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(.645, .045, .355, 1);
 
 }
 
@@ -208,6 +247,8 @@ ol > li > ul > li
 ol > li > ul > li:hover
 {
     background-color: rgb(172, 172, 172);
+    transition-duration: 500ms;
+    transition-timing-function: cubic-bezier(.645, .045, .355, 1);
 }
 
 ol > li > ul > li:hover > a
@@ -228,4 +269,9 @@ ol > li > ul > li:hover > a
 h1
 {
     text-align: center;
+}
+
+.video
+{
+    padding: 0 260px;
 }
